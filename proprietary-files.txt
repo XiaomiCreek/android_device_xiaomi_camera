@@ -20,9 +20,9 @@ system_ext/lib64/vendor.xiaomi.hardware.misys.common-V3-ndk-system_ext
 system_ext/lib64/vendor.xiaomi.hardware.misys.core-V1-ndk-system_ext
 #above libraries are coming without -system_ext extension like
 #system_ext/lib64/vendor.xiaomi.hardware.aidlbgservice-V1-ndk.so
-system_ext/lib64/vendor.xiaomi.hardware.bgservice@1.0.so
-system_ext/lib64/vendor.xiaomi.hardware.misys.common-V3-ndk.so
-system_ext/lib64/vendor.xiaomi.hardware.misys.core-V1-ndk.so
+#system_ext/lib64/vendor.xiaomi.hardware.bgservice@1.0.so
+#system_ext/lib64/vendor.xiaomi.hardware.misys.common-V3-ndk.so
+#system_ext/lib64/vendor.xiaomi.hardware.misys.core-V1-ndk.so
 
 system_ext/lib64/MiuiCamera
 
