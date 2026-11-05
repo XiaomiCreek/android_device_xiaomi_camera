@@ -1,0 +1,34 @@
+# All unpinned blobs below are extracted from creek
+
+vendor/xiaomi/camera/proprietary/system_ext/etc/permissions/vendor.xiaomi.hardware.misys-V1.0-java-permission.xml
+vendor/xiaomi/camera/proprietary/system_ext/etc/permissions/vendor.xiaomi.hardware.misys-V2.0-java-permission.xml
+vendor/xiaomi/camera/proprietary/system_ext/etc/permissions/vendor.xiaomi.hardware.misys-V4.0-java-permission.xml
+vendor/xiaomi/camera/proprietary/system_ext/etc/permissions/vendor.xiaomi.hardware.misys.V3_0-permission.xml
+vendor/xiaomi/camera/proprietary/system_ext/framework/vendor.xiaomi.hardware.aidlbgservice-V1-java.jar
+
+system_ext/lib64/libcamera_algoup_jni.xiaomi.so
+system_ext/lib64/libcamera_mianode_jni.xiaomi.so
+system_ext/lib64/libmisys_jni.xiaomi.so
+system_ext/lib64/libmqsas.so
+system_ext/lib64/miui.mqsas.native-cpp.so
+system_ext/lib64/vendor.xiaomi.hardware.misys@1.0.so
+system_ext/lib64/vendor.xiaomi.hardware.misys@3.0.so
+
+system_ext/lib64/vendor.xiaomi.hardware.aidlbgservice-V1-ndk-system_ext
+system_ext/lib64/vendor.xiaomi.hardware.bgservice@1.0-system_ext
+system_ext/lib64/vendor.xiaomi.hardware.misys.common-V3-ndk-system_ext
+system_ext/lib64/vendor.xiaomi.hardware.misys.core-V1-ndk-system_ext
+#above libraries are coming without -system_ext extension like
+#system_ext/lib64/vendor.xiaomi.hardware.aidlbgservice-V1-ndk.so
+system_ext/lib64/vendor.xiaomi.hardware.bgservice@1.0.so
+system_ext/lib64/vendor.xiaomi.hardware.misys.common-V3-ndk.so
+system_ext/lib64/vendor.xiaomi.hardware.misys.core-V1-ndk.so
+
+system_ext/lib64/MiuiCamera
+
+system_ext/lib64/vendor.xiaomi.hardware.bgservice-V1.0-java
+system_ext/lib64/vendor.xiaomi.hardware.misys-V1.0-java
+system_ext/lib64/vendor.xiaomi.hardware.misys-V2.0-java
+system_ext/lib64/vendor.xiaomi.hardware.misys-V4.0-java
+system_ext/lib64/vendor.xiaomi.hardware.misys.V3_0
+system_ext/lib64/vendor.xiaomi.hardware.misys.common-V2-java
