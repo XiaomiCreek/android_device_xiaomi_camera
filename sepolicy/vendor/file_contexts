@@ -1,0 +1,6 @@
+# MiuiCamera
+/vendor/lib64/libmialgoengine\.so         u:object_r:same_process_hal_file:s0
+/vendor/lib64/libmialgoengine2\.so        u:object_r:same_process_hal_file:s0
+/vendor/lib64/libprocessgroup_shim\.so    u:object_r:same_process_hal_file:s0
+/vendor/lib64/libcom\.xiaomi\.pluginutils\.so    u:object_r:same_process_hal_file:s0
+/vendor/lib64/libcom\.xiaomi\.metadatautils\.so  u:object_r:same_process_hal_file:s0
