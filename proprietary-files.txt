@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from creek
+# All blobs below are extracted from creek OS3.0.302.0.WBOMIXM
 
 vendor/xiaomi/camera/proprietary/system_ext/etc/permissions/vendor.xiaomi.hardware.misys-V1.0-java-permission.xml
 vendor/xiaomi/camera/proprietary/system_ext/etc/permissions/vendor.xiaomi.hardware.misys-V2.0-java-permission.xml
@@ -10,10 +10,19 @@ vendor/xiaomi/camera/proprietary/system_ext/framework/vendor.xiaomi.hardware.aid
 product/priv-app/MiuiCamera/MiuiCamera.apk|product/priv-app/MiuiCamera/MiuiCamera.apk
 product/priv-app/MiuiCamera/oem_overlay/oem_overlay.apk|product/priv-app/MiuiCamera/oem_overlay/oem_overlay.apk
 
-# MIUI Camera Native JNI & Framework Libraries
+# MIUI Camera Native JNI
 system_ext/lib64/libcamera_algoup_jni.xiaomi.so
 system_ext/lib64/libcamera_mianode_jni.xiaomi.so
 system_ext/lib64/libmisys_jni.xiaomi.so
+
+# MIUI Camera Framework Libraries
+system_ext/framework/vendor.xiaomi.hardware.bgservice-V1.0-java.jar
+system_ext/framework/vendor.xiaomi.hardware.misys-V1.0-java.jar
+system_ext/framework/vendor.xiaomi.hardware.misys-V2.0-java.jar
+system_ext/framework/vendor.xiaomi.hardware.misys-V4.0-java.jar
+system_ext/framework/vendor.xiaomi.hardware.misys.V3_0.jar
+system_ext/framework/vendor.xiaomi.hardware.misys.common-V2-java.jar
+system_ext/framework/vendor.xiaomi.hardware.postprocservice-V1-java.jar
 
 product/lib64/libarc2Dcalibration_jni.so
 product/lib64/libarc2Dverification_jni.so
@@ -40,6 +49,10 @@ system_ext/lib64/libmqsas.so
 system_ext/lib64/miui.mqsas.native-cpp.so
 system_ext/lib64/vendor.xiaomi.hardware.misys@1.0.so
 system_ext/lib64/vendor.xiaomi.hardware.misys@3.0.so
+system_ext/lib64/vendor.xiaomi.hardware.videoservice-V1-ndk.so
+system_ext/lib64/vendor.xiaomi.hardware.videoservice-V2-ndk.so
+system_ext/lib64/vendor.xiaomi.hardware.videoservice-V6-ndk.so
+system_ext/lib64/vendor.xiaomi.hardware.videoservice-V7-ndk.so
 
 system_ext/lib64/vendor.xiaomi.hardware.aidlbgservice-V1-ndk.so:system/lib64/vendor.xiaomi.hardware.aidlbgservice-V1-ndk.so;MODULE_SUFFIX=_system
 system_ext/lib64/vendor.xiaomi.hardware.bgservice@1.0.so:system/lib64/vendor.xiaomi.hardware.bgservice@1.0.so;MODULE_SUFFIX=_system
@@ -47,11 +60,3 @@ system_ext/lib64/vendor.xiaomi.hardware.misys.common-V3-ndk.so:system/lib64/vend
 system_ext/lib64/vendor.xiaomi.hardware.misys.core-V1-ndk.so:system/lib64/vendor.xiaomi.hardware.misys.core-V1-ndk.so;MODULE_SUFFIX=_system
 system_ext/lib64/libmicampostproc_client.so:system/lib64/libmicampostproc_client.so
 system_ext/lib64/vendor.xiaomi.hardware.campostproc@1.0.so:system/lib64/vendor.xiaomi.hardware.campostproc@1.0.so;MODULE_SUFFIX=_system
-
-# below need to be fixed
-system_ext/lib64/vendor.xiaomi.hardware.bgservice-V1.0-java
-system_ext/lib64/vendor.xiaomi.hardware.misys-V1.0-java
-system_ext/lib64/vendor.xiaomi.hardware.misys-V2.0-java
-system_ext/lib64/vendor.xiaomi.hardware.misys-V4.0-java
-system_ext/lib64/vendor.xiaomi.hardware.misys.V3_0
-system_ext/lib64/vendor.xiaomi.hardware.misys.common-V2-java
