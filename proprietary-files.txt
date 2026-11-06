@@ -6,9 +6,36 @@ vendor/xiaomi/camera/proprietary/system_ext/etc/permissions/vendor.xiaomi.hardwa
 vendor/xiaomi/camera/proprietary/system_ext/etc/permissions/vendor.xiaomi.hardware.misys.V3_0-permission.xml
 vendor/xiaomi/camera/proprietary/system_ext/framework/vendor.xiaomi.hardware.aidlbgservice-V1-java.jar
 
+# MIUI Camera Split Package & Resource Overlays
+product/priv-app/MiuiCamera/MiuiCamera.apk|product/priv-app/MiuiCamera/MiuiCamera.apk
+product/priv-app/MiuiCamera/oem_overlay/oem_overlay.apk|product/priv-app/MiuiCamera/oem_overlay/oem_overlay.apk
+
+# MIUI Camera Native JNI & Framework Libraries
 system_ext/lib64/libcamera_algoup_jni.xiaomi.so
 system_ext/lib64/libcamera_mianode_jni.xiaomi.so
 system_ext/lib64/libmisys_jni.xiaomi.so
+
+product/lib64/libarc2Dcalibration_jni.so
+product/lib64/libarc2Dverification_jni.so
+product/lib64/libarccalibration_jni.so
+product/lib64/libarcsoft_calibverify_TriCamera.so
+product/lib64/libarcsoft_single_chart_calibration.so
+product/lib64/libarcsoft_tricam_calibration.so
+product/lib64/libarcsoft_tricam_calibration2D.so
+product/lib64/libarcsoft_tricam_verification.so
+product/lib64/libarcverification_jni.so
+product/lib64/libbase.so
+product/lib64/libc++.so
+product/lib64/libcalibration_postsale_jni.so
+product/lib64/libcutils.so
+product/lib64/libhidlbase.so
+product/lib64/libjni_aidl_service.so
+product/lib64/libjni_calibration.so
+product/lib64/libjsoncpp.so
+product/lib64/libutils.so
+product/lib64/libwa_calibrationtool.so
+product/lib64/libz.so
+
 system_ext/lib64/libmqsas.so
 system_ext/lib64/miui.mqsas.native-cpp.so
 system_ext/lib64/vendor.xiaomi.hardware.misys@1.0.so
