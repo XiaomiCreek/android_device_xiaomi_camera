@@ -14,18 +14,14 @@ system_ext/lib64/miui.mqsas.native-cpp.so
 system_ext/lib64/vendor.xiaomi.hardware.misys@1.0.so
 system_ext/lib64/vendor.xiaomi.hardware.misys@3.0.so
 
-system_ext/lib64/vendor.xiaomi.hardware.aidlbgservice-V1-ndk-system_ext
-system_ext/lib64/vendor.xiaomi.hardware.bgservice@1.0-system_ext
-system_ext/lib64/vendor.xiaomi.hardware.misys.common-V3-ndk-system_ext
-system_ext/lib64/vendor.xiaomi.hardware.misys.core-V1-ndk-system_ext
-#above libraries are coming without -system_ext extension like
-#system_ext/lib64/vendor.xiaomi.hardware.aidlbgservice-V1-ndk.so
-#system_ext/lib64/vendor.xiaomi.hardware.bgservice@1.0.so
-#system_ext/lib64/vendor.xiaomi.hardware.misys.common-V3-ndk.so
-#system_ext/lib64/vendor.xiaomi.hardware.misys.core-V1-ndk.so
+system_ext/lib64/vendor.xiaomi.hardware.aidlbgservice-V1-ndk.so:system/lib64/vendor.xiaomi.hardware.aidlbgservice-V1-ndk.so;MODULE_SUFFIX=_system
+system_ext/lib64/vendor.xiaomi.hardware.bgservice@1.0.so:system/lib64/vendor.xiaomi.hardware.bgservice@1.0.so;MODULE_SUFFIX=_system
+system_ext/lib64/vendor.xiaomi.hardware.misys.common-V3-ndk.so:system/lib64/vendor.xiaomi.hardware.misys.common-V3-ndk.so;MODULE_SUFFIX=_system
+system_ext/lib64/vendor.xiaomi.hardware.misys.core-V1-ndk.so:system/lib64/vendor.xiaomi.hardware.misys.core-V1-ndk.so;MODULE_SUFFIX=_system
+system_ext/lib64/libmicampostproc_client.so:system/lib64/libmicampostproc_client.so
+system_ext/lib64/vendor.xiaomi.hardware.campostproc@1.0.so:system/lib64/vendor.xiaomi.hardware.campostproc@1.0.so;MODULE_SUFFIX=_system
 
-system_ext/lib64/MiuiCamera
-
+# below need to be fixed
 system_ext/lib64/vendor.xiaomi.hardware.bgservice-V1.0-java
 system_ext/lib64/vendor.xiaomi.hardware.misys-V1.0-java
 system_ext/lib64/vendor.xiaomi.hardware.misys-V2.0-java
